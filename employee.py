@@ -1,0 +1,12 @@
+EMPNAME=[]
+EMPNAME.append("abc")
+EMPNAME.append("def")
+EMPNAME.append("ghi")
+print("--Add items into list")
+print(EMPNAME)
+EMPNAME.remove("ghi")
+print("--Remove item from list")
+print(EMPNAME)
+EMPNAME.append("ghi")
+print("--Append item into list")
+print(EMPNAME)
